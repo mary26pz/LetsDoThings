@@ -1,2 +1,2 @@
-# LetsDoThings
-Uses google and location API to search nearby events
+# group4poosd
+Large Group Project
