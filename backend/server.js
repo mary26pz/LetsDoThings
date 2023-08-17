@@ -12,6 +12,7 @@ app.use(bodyParser.json());
 // MERN B updates this to no longer use a connection string
 require('dotenv').config();
 const url = process.env.MONGODB_URI;
+console.log("var: "+url)
 const MongoClient = require('mongodb').MongoClient;
 const client = new MongoClient(url);
 client.connect();
